@@ -3,56 +3,103 @@
     "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
     "InitialLocation": "Kresge",
     "Locations": {
-        "Kresge": {
-            "Body": "This is Kresge College, lots of nice trees.",
+        "Forest Path": {
+            "Body": "TODO",
             "Choices": [
                 {
-                    "Text": "South",
-                    "Target": "Porter"
+                    "Text": "Onwards...",
+                    "Target": "Murky Pond"
                 }
             ]
         },
-        "Porter": {
-            "Body": "This is Porter College, the trees are nice here too.",
+        "Murky Pond": {
+            "Body": "TODO",
+            "Choices": [
+                {
+                    "Text": "Could it be...",
+                    "Target": "Fake Stone"
+                }
+            ]
+        },
+        "Fake Stone": {
+            "Body": "TODO",
+            "Choices": [
+                {
+                    "Text": "",
+                    "Target": "Peaceful Clearing"
+                }
+            ]
+        },
+        "Peaceful Clearing": {
+            "Body": "TODO",
+            "Choices": [
+                {
+                    "Text": "Take some, for the road.",
+                    "Target": "Fairy Grove"
+                },
+                {
+                    "Text": "Not needed, they look...suspicious.",
+                    "Target": "Fairy Grove"
+                }
+            ]
+        },
+        "Fairy Grove": {
+            "Body": "TODO",
             "Choices": [
                 {
                     "Text": "North",
-                    "Target": "Kresge"
+                    "Target": "Grass Field"
                 },
                 {
                     "Text": "South",
-                    "Target": "Rachel Carson"
+                    "Target": "Cave"
                 }
             ]
         },
-        "Rachel Carson": {
-            "Body": "Rachel Carson College, more sun and fewer trees.",
+        "Grass Field": {
+            "Body": "TODO",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Porter"
-                },
-                {
-                    "Text": "South",
-                    "Target": "Oakes"
+                    "Text": "Show us the meaning of haste!",
+                    "Target": "Babbling Brook"
                 }
             ]
         },
-        "Oakes": {
-            "Body": "Oakes College, even the buildings have tree bark on them.",
+        "Cave": {
+            "Body": "TODO",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Rachel Carson"
-                },
-                {
-                    "Text": "South",
-                    "Target": "Beyond"
+                    "Text": "TODO",
+                    "Target": "Abandoned Hut"
                 }
             ]
         },
-        "Beyond": {
-            "Body": "Grass, don't forget to check for ticks!"
+        "Abandoned Hut": {
+            "Body": "TODO",
+            "Choices": [
+                {
+                    "Text": "TODO",
+                    "Target": "Babbling Brook"
+                }
+            ]
+        },
+        "Babbling Brook": {
+            "Body": "TODO",
+            "Choices": [
+                {
+                    "Text": "TODO",
+                    "Target": "Sword in the Stone"
+                }
+            ]
+        },
+        "Sword in the Stone": {
+            "Body": "TODO",
+            "Choices": [
+                {
+                    "Text": "TODO",
+                    "Target": "End"
+                }
+            ]
         }
     }
 }
