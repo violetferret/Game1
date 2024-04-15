@@ -1,7 +1,7 @@
 class Start extends Scene {
     create() {
         this.engine.setTitle(this.engine.storyData.Title); // TODO: replace this text using this.engine.storyData to find the story title
-        this.engine.addChoice("Begin the story");
+        this.engine.addChoice("Begin the tale...");
     }
 
     handleChoice() {
@@ -15,7 +15,6 @@ class Location extends Scene {
         this.engine.show(locationData.Body); // TODO: replace this text by the Body of the location data
         if(locationData.Choices) { // TODO: check if the location has any Choices
             for(let choice of [locationData.Choices]) { // TODO: loop over the location's Choices
-                // IDK ABOUT THIS
                 let next = this.engine.storyData.Locations[choice[0].Target]
                 for (let i = 0; i < locationData.Choices.length; i++) {
                     this.engine.addChoice(choice[i].Text, choice[i]); // TODO: use the Text of the choice

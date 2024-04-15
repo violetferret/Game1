@@ -1,10 +1,10 @@
 {
-    "Title": "Campus Life on the West Side",
-    "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
-    "InitialLocation": "Kresge",
+    "Title": "A Noble Quest...",
+    "Credits": "By Elliot Ahlstroem (kahlstro@ucsc.edu), based on template by Adam Smith (amsmith@ucsc.edu).",
+    "InitialLocation": "Forest Path",
     "Locations": {
         "Forest Path": {
-            "Body": "TODO",
+            "Body": "The forest path goes ever on.\nYour legs are weary under the weight of your armor (if only that blasted horse had not run for the hills...), your stomach hungers for sustenance, and your throat burns with thirst.\nBut you must soldier forth. You are a knight, after all, and that sword won't find itself!",
             "Choices": [
                 {
                     "Text": "Onwards...",
@@ -13,49 +13,55 @@
             ]
         },
         "Murky Pond": {
-            "Body": "TODO",
+            "Body": "You follow the path through the trees, until it peters out, revealing...a pond! Perhaps you can quench your thirst.\nBut on further inspection, a layer of pond scum covers the water, and oily creatures are peeking up through the algae. Quenching seems to be out of the question.\nYou look up, and see a mass of grey peeking through the trees. It is ginormous!\n",
             "Choices": [
                 {
-                    "Text": "Could it be...",
+                    "Text": "Could it be...?",
                     "Target": "Fake Stone"
                 }
             ]
         },
         "Fake Stone": {
-            "Body": "TODO",
+            "Body": "At last! The legendary Stone towers before you, glittering in the light peeking through the trees. Now, the sword...\nYou crest the boulder, ready for the moment of triumph, and--\nThere's no sword here! Hark, but you have been duped! This is just an ordinary rock!\nYou must keep going, no letting this discourage you.",
             "Choices": [
                 {
-                    "Text": "",
+                    "Text": "Must keep searching...",
                     "Target": "Peaceful Clearing"
                 }
             ]
         },
         "Peaceful Clearing": {
-            "Body": "TODO",
+            "Body": "The trees open up to a wide, grassy clearing, rounded by bushes full of--berries! Beautiful, red berries!\nFinally, you may fill your belly with the gifts of the Earth! You don't recognize these berries, however, they may be poisonous...",
             "Choices": [
                 {
-                    "Text": "Take some, for the road.",
-                    "Target": "Fairy Grove"
+                    "Text": "Take some, what harm can it do?",
+                    "Target": "Fairy Grove 1"
                 },
                 {
                     "Text": "Not needed, they look...suspicious.",
-                    "Target": "Fairy Grove"
+                    "Target": "Fairy Grove 2"
                 }
             ]
         },
-        "Fairy Grove": {
+        "Fairy Grove 1": {
+            "Body": "You continue through the forest, the pouch full of berries reinvigorating your body and spirit.\nA smattering of large mushrooms begin to creep up along the sides of the path. Are they...glittering?\n",
+            "Choices": [
+                {
+                    "Text": "TODO",
+                    "Target": "Grass Field"
+                }
+            ]
+        },
+        "Fairy Grove 2": {
             "Body": "TODO",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Grass Field"
-                },
-                {
-                    "Text": "South",
+                    "Text": "TODO",
                     "Target": "Cave"
                 }
             ]
         },
+        
         "Grass Field": {
             "Body": "TODO",
             "Choices": [
@@ -93,13 +99,7 @@
             ]
         },
         "Sword in the Stone": {
-            "Body": "TODO",
-            "Choices": [
-                {
-                    "Text": "TODO",
-                    "Target": "End"
-                }
-            ]
+            "Body": "TODO"
         }
     }
 }
