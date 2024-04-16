@@ -36,6 +36,13 @@ class Location extends Scene {
     }
 }
 
+class Mechanism extends Location {
+    create() {
+        //TODO 
+        
+    }
+}
+
 class End extends Scene {
     create() {
         this.engine.show("<hr>");

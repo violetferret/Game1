@@ -4,7 +4,7 @@
     "InitialLocation": "Forest Path",
     "Locations": {
         "Forest Path": {
-            "Body": "The forest path goes ever on.<br>Your legs are weary under the weight of your armor (if only that blasted horse had not run for the hills...), your stomach hungers for sustenance, and your throat burns with thirst.<br>But you must soldier forth. You are a knight, after all, and that sword won't find itself!",
+            "Body": "The forest path goes ever on.<br>Your legs are weary under the weight of your armor (if only that blasted horse had not run for the hills...), your stomach hungers for sustenance, and your throat burns with thirst.<br>But you must soldier forth. You are a knight, after all, and that sword won't find itself!<br><br>",
             "Choices": [
                 {
                     "Text": "Onwards...",
@@ -13,7 +13,7 @@
             ]
         },
         "Murky Pond": {
-            "Body": "You follow the path through the trees, until it peters out, revealing...a pond! Perhaps you can quench your thirst.<br>But on further inspection, a layer of pond scum covers the water, and oily creatures are peeking up through the algae. Quenching seems to be out of the question.<br>You look up, and see a mass of grey peeking through the trees. It is ginormous!<br>",
+            "Body": "You follow the path through the trees, until it peters out, revealing...a pond! Perhaps you can quench your thirst.<br>But on further inspection, a layer of pond scum covers the water, and oily creatures are peeking up through the algae. Quenching seems to be out of the question.<br>You look up, and see a mass of grey peeking through the trees. It is ginormous!<br><br>",
             "Choices": [
                 {
                     "Text": "Could it be...?",
@@ -22,7 +22,7 @@
             ]
         },
         "Fake Stone": {
-            "Body": "At last! The legendary Stone towers before you, glittering in the light peeking through the trees. Now, the sword...<br>You crest the boulder, ready for the moment of triumph, and--<br>There's no sword here! Hark, but you have been duped! This is just an ordinary rock!<br>You must keep going, no letting this discourage you.",
+            "Body": "At last! The legendary Stone towers before you, glittering in the light peeking through the trees. Now, the sword...<br>You crest the boulder, ready for the moment of triumph, and--<br>There's no sword here! Hark, but you have been duped! This is just an ordinary rock!<br>You must keep going, no letting this discourage you.<br><br>",
             "Choices": [
                 {
                     "Text": "Must keep searching...",
@@ -31,37 +31,36 @@
             ]
         },
         "Peaceful Clearing": {
-            "Body": "The trees open up to a wide, grassy clearing, rounded by bushes full of--berries! Beautiful, red berries!<br>Finally, you may fill your belly with the gifts of the Earth! You don't recognize these berries, however, they may be poisonous...",
+            "Body": "The trees open up to a wide, grassy clearing, rounded by bushes full of--berries! Beautiful, red berries!<br>Finally, you may fill your belly with the gifts of the Earth! You don't recognize these berries, however, they may be poisonous...<br><br>",
+            "Key": "Take some, what harm can it do?",
             "Choices": [
                 {
                     "Text": "Take some, what harm can it do?",
-                    "Target": "Fairy Grove 1"
+                    "Target": "Fairy Grove"
                 },
                 {
                     "Text": "Not needed, they look...suspicious.",
-                    "Target": "Fairy Grove 2"
+                    "Target": "Fairy Grove"
                 }
             ]
         },
-        "Fairy Grove 1": {
-            "Body": "You continue through the forest, the pouch full of berries reinvigorating your body and spirit.<br>A smattering of large mushrooms begin to creep up along the sides of the path. Are they...glittering?<br>",
+        "Fairy Grove": {
+            "Body": "You continue through the forest, the pouch full of berries reinvigorating your body and spirit.<br>A smattering of large mushrooms begin to creep up along the sides of the path. Are they...glittering?<br><br>",
             "Choices": [
                 {
-                    "Text": "TODO",
+                    "Text": "\"Why yes, I happen to have some!\"",
                     "Target": "Grass Field"
-                }
-            ]
-        },
-        "Fairy Grove 2": {
-            "Body": "TODO",
-            "Choices": [
+                },
+                {
+                    "Text": "Best to keep walking, the fae are not to be trusted...",
+                    "Target": "Cave"
+                },
                 {
                     "Text": "TODO",
                     "Target": "Cave"
                 }
             ]
         },
-        
         "Grass Field": {
             "Body": "TODO",
             "Choices": [
