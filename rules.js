@@ -28,18 +28,17 @@ class Location extends Scene {
 
     handleChoice(choice) {
         if(choice) {
+            console.log(choice)
+            let lock_key = false;
+            if (choice.Key == true) {
+                lock_key = true;
+            }
             this.engine.show("&gt; "+choice.Text);
+            console.log(lock_key)
             this.engine.gotoScene(Location, choice.Target);
         } else {
             this.engine.gotoScene(End);
         }
-    }
-}
-
-class Mechanism extends Location {
-    create() {
-        //TODO 
-        
     }
 }
 
