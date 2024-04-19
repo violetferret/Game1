@@ -40,6 +40,7 @@
                 },
                 {
                     "Text": "Not needed, they look...suspicious.",
+                    "Key": false,
                     "Target": "Fairy Grove"
                 }
             ]
@@ -54,15 +55,21 @@
                 {
                     "Text": "Best to keep going, the fae are not to be trusted...",
                     "Target": "Cave"
-                },
+                }
+            ],
+            "Locked_Choices": [
                 {
                     "Text": "\"Why, I happen to have some!\"",
                     "Target": "Grass Field"
+                },
+                {
+                    "Text": "Best to keep going, the fae are not to be trusted...",
+                    "Target": "Cave"
                 }
             ]
         },
         "Grass Field": {
-            "Body": "<br>Following the faeries' directions, you walk a short distance until the trees disperse and reveal an expansive grass field, in the middle of which is standing...<br>Your horse!",
+            "Body": "<br>You hand over the berries, and the faerie screeches with delight.<br>\"Now, my horse?\" you prompt.<br>\"Yes, yes! First, you must go...\"<br><br>Following the faeries' directions, you walk a short distance until the trees disperse and reveal an expansive grass field, in the middle of which is standing...Your horse!<br>You run up to her and scratch her neck, before hoisting yourself into the saddle and riding onwards.<br><br>",
             "Choices": [
                 {
                     "Text": "Show us the meaning of haste!",
@@ -90,6 +97,7 @@
         },
         "Babbling Brook": {
             "Body": "<br>TODO",
+            "Locked_Body": "buh",
             "Choices": [
                 {
                     "Text": "TODO",

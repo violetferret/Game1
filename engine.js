@@ -56,7 +56,7 @@ class Scene {
         this.engine = engine;
     }
 
-    create() { }
+    create() {}
 
     update() { }
 
