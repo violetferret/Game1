@@ -78,26 +78,26 @@
             ]
         },
         "Cave": {
-            "Body": "<br>TODO",
+            "Body": "<br>You trudge onwards out of the faerie grove, hoping you have not made a choice you will regret...<br>The night grows near. You hear the frogs and crickets singing their songs, and the prowling of hidden, surely dangerous, creatures. As the sun sets behind the horizon, you come upon a cave. That'll do just fine for shelter!<br>You settle in, unclasping your armor and laying down your sword for the night, and quickly fall into a deep slumber...<br><br>You wake to the feeling of...warm breath on your face.<br>Your eyes open slowly, and you are face to face with...a <i>bear</i>.<br><br>You do your best to relax, hoping to play dead so the beast will not tear you to shreds. Slow breaths. No sudden moves.<br>The bear sniffs over your body, then moves on to your belongings. It nudges your armor, until it finds your pouch full of berries. Of course, it's hungry! The bear scoops up your pouch of berries and lumbers off, content with its scavenged breakfast.<br><br>",
             "Choices": [
                 {
-                    "Text": "TODO",
+                    "Text": "Carpe Diem, as they say!",
                     "Target": "Abandoned Hut"
                 }
             ]
         },
         "Abandoned Hut": {
-            "Body": "<br>TODO",
+            "Body": "<br>You do not walk for long before you find a small cottage, hidden among the trees. Perhaps there will be a helpful soul residing there! You could get company, maybe a warm meal...Your stomach growls at the very thought.<br><br><i>Knock, knock, knock.</i><br><br>The door to the hut swings open, but curiously, there is no one behind it. Upon further inspection, it is long since abandoned. ",
             "Choices": [
                 {
-                    "Text": "TODO",
+                    "Text": "High time to get moving...",
                     "Target": "Babbling Brook"
                 }
             ]
         },
         "Babbling Brook": {
-            "Body": "<br>TODO",
-            "Locked_Body": "buh",
+            "Body": "<br>After nothing but trees",
+            "Locked_Body": "",
             "Choices": [
                 {
                     "Text": "TODO",
@@ -106,7 +106,8 @@
             ]
         },
         "Sword in the Stone": {
-            "Body": "<br>TODO"
+            "Body": "<br>TODO",
+            "Locked_Body": "buh"
         }
     }
 }
