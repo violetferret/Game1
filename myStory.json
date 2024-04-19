@@ -96,18 +96,18 @@
             ]
         },
         "Babbling Brook": {
-            "Body": "<br>After nothing but trees for a long, long while, you finally hear the sound of rushing water. Finally, a chance to hydrate!<br>You jog towards the sound, elated at the chance to fill your waterskin again, and finally come to a clear, babbling brook, shining in the sunlight.<br>You kneel and fill up your",
-            "Locked_Body": "",
+            "Body": "<br>After nothing but trees for a long, long while, you finally hear the sound of rushing water. Finally, a chance to hydrate!<br>You jog towards the sound, elated at the chance to fill your waterskin again, and finally come to a clear, babbling brook, shining in the sunlight.<br>You kneel and fill up your waterskin, and splash your face with the cool, sweet water. You feel a sense of finality, of rest. Perhaps this harrowing quest will soon come to an end...<br><br>",
+            "Locked_Body": "<br>After nothing but trees for a long, long while, you finally hear the sound of rushing water. Finally, a chance to hydrate!<br>You spur on your horse, elated at the chance to fill your waterskin again, and finally come to a clear, babbling brook, shining in the sunlight.<br>You dismount your mare, coming to a kneel and filling up your waterskin. You splash your face with the cool, sweet water. You feel a sense of finality, of rest. Perhaps this harrowing quest will soon come to an end...<br><br>",
             "Choices": [
                 {
-                    "Text": "TODO",
+                    "Text": "Just a little bit more...",
                     "Target": "Sword in the Stone"
                 }
             ]
         },
         "Sword in the Stone": {
-            "Body": "<br>TODO",
-            "Locked_Body": "buh"
+            "Body": "<br>You walk onwards, the rushing water motivating you once again, head held high, until you finally see it: <i>the Sword in the Stone</i>.<br>You were duped before, but now there is no mistaking it. The Stone, rising to chest level, bears a tall, glittering sword in its heart, the trees parting around it as if out of respect.<br>You crest the Stone, and, as if sliding a knife out of butter, the Sword lands in your hand. You were truly worthy!<br>You raise the Sword, high above your head, and give a cry to the forest that had delayed this moment, delayed this <i>victory</i>.<br><br>Sword resting in its sheath, your spirits high, you finally begin the path home.<br><br>",
+            "Locked_Body": "<br>You ride onwards, the rushing water motivating you, head held high, until you finally see it: <i>the Sword in the Stone</i>.<br>You were duped before, but now there is no mistaking it. The Stone, rising to chest level, bears a tall, glittering sword in its heart, the trees parting around it as if out of respect.<br>You dismount, and crest the Stone, and, as if sliding a knife out of butter, the Sword lands in your hand. You were truly worthy!<br>You raise the Sword, high above your head, and give a cry to the forest that had delayed this moment, delayed this <i>victory</i>.<br><br>Sword resting in its sheath, you mount your mare once again, and finally begin the path home.<br><br>"
         }
     }
 }
