@@ -87,7 +87,7 @@
             ]
         },
         "Abandoned Hut": {
-            "Body": "<br>You do not walk for long before you find a small cottage, hidden among the trees. Perhaps there will be a helpful soul residing there! You could get company, maybe a warm meal...Your stomach growls at the very thought.<br><br><i>Knock, knock, knock.</i><br><br>The door to the hut swings open, but curiously, there is no one behind it. Upon further inspection, it is long since abandoned. ",
+            "Body": "<br>You do not walk for long before you find a small cottage, hidden among the trees. Perhaps there will be a helpful soul residing there! You could get company, maybe a warm meal...Your stomach growls at the very thought.<br><br><i>Knock, knock, knock.</i><br><br>The door to the hut swings open, but curiously, there is no one behind it. Upon further inspection, it is long since abandoned. Dried, long-since rotted herbs and wares lay strewn across the tables, dozens of knick-knacks, covered in dust and cobwebs.<br><br><i>Slam!</i><br><br>The door shuts behind you, with a force unattributable to the wind. You whirl around, trying to see who pulled this trick on you, and come face to face with a withered, decrepit skeleton, decked in ragged robes and tarnished jewelry, in a rocking chair at the other end of the hut. Strange...she must have died here, long ago.<br>\"Sorry to disturb your rest,\" you murmur. \"I'll be on my way.\"<br>The skeleton seems to exhale a long, quiet sigh. The door swings back open, and you back out slowly, not wanting to disturb her anymore.<br><br>",
             "Choices": [
                 {
                     "Text": "High time to get moving...",
@@ -96,7 +96,7 @@
             ]
         },
         "Babbling Brook": {
-            "Body": "<br>After nothing but trees",
+            "Body": "<br>After nothing but trees for a long, long while, you finally hear the sound of rushing water. Finally, a chance to hydrate!<br>You jog towards the sound, elated at the chance to fill your waterskin again, and finally come to a clear, babbling brook, shining in the sunlight.<br>You kneel and fill up your",
             "Locked_Body": "",
             "Choices": [
                 {
